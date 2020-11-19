@@ -1,0 +1,37 @@
+{
+  "name": "simoes-dev",
+  "version": "1.0.0",
+  "description": "Theme for my personal blog",
+  "author": {
+    "name": "Jonathan F. Simões",
+    "email": "work@simoes.dev",
+    "url": "https://simoes.dev"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "css": "gulp css",
+    "zip": "gulp zip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsimoes/simoes-dev.git"
+  },
+  "keywords": [
+    "code",
+    "developer"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsimoes/simoes-dev/issues"
+  },
+  "homepage": "https://github.com/devsimoes/simoes-dev#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-zip": "^5.0.2",
+    "tailwindcss": "^1.9.6"
+  }
+}
